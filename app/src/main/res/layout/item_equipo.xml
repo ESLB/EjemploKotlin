@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:orientation="vertical" android:padding="10dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ie_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre" />
+
+            <TextView
+                android:id="@+id/ie_creador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Creador" />
+
+            <TextView
+                android:id="@+id/ie_ubicacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ubicacion" />
+
+            <TextView
+                android:id="@+id/ie_cantidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cantidad" />
+
+            <TextView
+                android:id="@+id/ie_identidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID" />
+
+            <Button
+                android:id="@+id/btn_retar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="retar" />
+
+            <Button
+                android:id="@+id/btn_unirme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="unirme" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrearCuentaActivity">
+
+    <EditText
+        android:id="@+id/email_et_lgn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:hint="Email"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pass_et_lgn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Contraseña"
+        app:layout_constraintStart_toStartOf="@+id/email_et_lgn"
+        app:layout_constraintTop_toBottomOf="@+id/email_et_lgn" />
+
+    <EditText
+        android:id="@+id/nombre_et_lgn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre"
+        app:layout_constraintStart_toStartOf="@+id/pass_et_lgn"
+        app:layout_constraintTop_toBottomOf="@+id/pass_et_lgn" />
+
+    <EditText
+        android:id="@+id/edad_et_lgn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Edad"
+        app:layout_constraintStart_toStartOf="@+id/nombre_et_lgn"
+        app:layout_constraintTop_toBottomOf="@+id/nombre_et_lgn" />
+
+    <EditText
+        android:id="@+id/ubicacion_et_lgn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ubicación"
+        app:layout_constraintStart_toStartOf="@+id/edad_et_lgn"
+        app:layout_constraintTop_toBottomOf="@+id/edad_et_lgn" />
+
+    <CheckBox
+        android:id="@+id/deacuerdo_cb_lgn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="Estoy de acuerdo con las políticas"
+        app:layout_constraintStart_toStartOf="@+id/ubicacion_et_lgn"
+        app:layout_constraintTop_toBottomOf="@+id/ubicacion_et_lgn" />
+
+    <Button
+        android:id="@+id/crearusuario_btn_lgn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Crear Usuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deacuerdo_cb_lgn" />
+
+</android.support.constraint.ConstraintLayout>
